@@ -66,10 +66,8 @@ const runScript = async () => {
 			return;
 		}
 
-		// Close the readline interface
 		readline.close();
 
-		// Run the local-ssl-proxy with user-specified ports
 		console.log("Proxying traffic from port", source, "to port", target, "\n");
 
 		runInteractiveCommand("local-ssl-proxy", [
