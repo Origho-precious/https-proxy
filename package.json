@@ -1,0 +1,23 @@
+{
+  "name": "https-proxy",
+  "version": "1.0.0",
+  "description": "A script that creates https proxy on MacOS and Linux",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Origho-precious/https-proxy.git"
+  },
+  "keywords": [
+    "https",
+    "proxy"
+  ],
+  "author": "Precious Origho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Origho-precious/https-proxy/issues"
+  },
+  "homepage": "https://github.com/Origho-precious/https-proxy#readme"
+}
