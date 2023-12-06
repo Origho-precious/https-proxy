@@ -9,6 +9,9 @@ mkcert -install
 # Create a certificate for localhost
 mkcert localhost
 
+# PEM files are generated in the current directory
+echo "PEM files generated successfully."
+
 # Install local-ssl-proxy globally using npm
 npm install -g local-ssl-proxy
 
@@ -16,9 +19,5 @@ npm install -g local-ssl-proxy
 read -p "Enter the source port (e.g., 3010): " source_port
 read -p "Enter the target port (e.g., 3000): " target_port
 
-# PEM files are generated in the current directory
-echo "PEM files generated successfully."
-
 # Run the local-ssl-proxy with user-specified ports
 local-ssl-proxy --source "$source_port" --target "$target_port" --cert localhost.pem --key localhost-key.pem
-
